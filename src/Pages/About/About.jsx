@@ -71,13 +71,6 @@ function TestimonialCard(props) {
                     </chakra.span>
                 </chakra.p>
             </Flex>
-            <Avatar
-                src={avatar}
-                height={'80px'}
-                width={'80px'}
-                alignSelf={'center'}
-                m={{ base: '0 0 35px 0', md: '0 0 0 50px' }}
-            />
         </Flex>
     );
 }
